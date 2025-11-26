@@ -1,7 +1,7 @@
 # 👋
 
 I'm an independent full-stack developer focused on building real products end-to-end.  
-Currently, I'm working on **AuthorStack** — an AI-powered platform for indie authors with analytics, ingestion pipelines, community features, and a full promo marketplace.
+Currently, I'm working on **AuthorStack** : an AI-powered platform for indie authors with analytics, ingestion pipelines, community features, and a full promo marketplace.
 
 ### 🔥 What I Build
 - Scalable SaaS products  
@@ -19,5 +19,5 @@ Currently, I'm working on **AuthorStack** — an AI-powered platform for indie a
 Full production architecture with ingestion, rate limiting, marketplace, notifications, and cron jobs.
 
 ### 📬 Contact
-**Portfolio:** https://kaadz.vercel.app  
+**Portfolio:** https://www.kaadz.me
 **Email:** kiwi092020@gmail.com
