@@ -1,16 +1,23 @@
-## Hi there 👋
+# 👋
 
-<!--
-**kaadipranav/kaadipranav** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm an independent full-stack developer focused on building real products end-to-end.  
+Currently, I'm working on **AuthorStack** — an AI-powered platform for indie authors with analytics, ingestion pipelines, community features, and a full promo marketplace.
 
-Here are some ideas to get you started:
+### 🔥 What I Build
+- Scalable SaaS products  
+- AI-integrated systems  
+- Automation + ingestion pipelines  
+- High-performance dashboards and analytics  
+- End-to-end architectures (frontend → backend → infra)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠 Tech I Work With
+**TypeScript, Next.js, React, Supabase, Postgres, Redis, Vercel, Edge Functions, Node.js**  
+**AI integrations (OpenRouter), Webhooks, Queue systems, Cron orchestration**
+
+### 🚀 Featured Project
+**AuthorStack** — AI tools, analytics, community, and marketing systems for authors.  
+Full production architecture with ingestion, rate limiting, marketplace, notifications, and cron jobs.
+
+### 📬 Contact
+**Portfolio:** https://kaadz.vercel.app  
+**Email:** kiwi092020@gmail.com
