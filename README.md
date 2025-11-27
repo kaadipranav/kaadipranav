@@ -44,8 +44,8 @@ Building:
 
 ### » Let’s Connect
 - Portfolio → [kaadz.me](https://kaadz.me)
-- Email → [hi@kaadz.me](mailto:hi@kaadz.me)
-- Twitter/X → [@kaadz_](https://twitter.com/kaadz_)
+- Email → [hi@kaadz.me](mailto:kiwi092020@gmail.com)
+- Twitter/X → [@kaadz_](https://twitter.com/kaad_zz)
 - IndieHackers → [indiehackers.com/kaadz](https://indiehackers.com/kaadz)
 
 <div align="center">
