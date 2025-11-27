@@ -1,6 +1,6 @@
 <div align="center">
   <br/>
-  <img src="https://raw.githubusercontent.com/kaadipranav/kaadipranav/main/assets/banner.png" width="900" alt="AuthorStack – The all-in-one platform for indie authors"/>
+  <img src="https://raw.githubusercontent.com/kaadipranav/kaadipranav/main/assets/banner1.png" width="900" alt="AuthorStack – The all-in-one platform for indie authors"/>
   <br/><br/>
 
   <h1>Hey, I’m Kaadz 👋</h1>
