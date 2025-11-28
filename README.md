@@ -4,14 +4,14 @@
   <br/><br/>
 
   <h1>Hey, I’m Kaadz 👋</h1>
-  <h3>Full-stack indie maker building <a href="https://authorstack.in">AuthorStack</a> — the all-in-one platform for serious indie authors</h3>
+  <h3>Full-stack indie maker building <a href="https://authorstack.vercel.app">AuthorStack</a> — the all-in-one platform for serious indie authors</h3>
 
   <p>
     <strong>Write faster • Launch smarter • Earn more</strong><br/>
     AI writing tools, real-time analytics, automated marketing, reader CRM, marketplace — everything in one place.
   </p>
 
-  <a href="https://authorstack.in">
+  <a href="https://authorstack.vercel.app">
     <img src="https://img.shields.io/badge/Join%20the%20Waitlist%20%E2%86%92-FF6B6B?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Join the Waitlist"/>
   </a>
   <a href="https://kaadz.me">
@@ -23,7 +23,7 @@
 
 ### » Currently Shipping
 **AuthorStack** — Production-grade SaaS for indie authors (private beta Q1 2026)  
-→ https://authorstack.in
+→ https://authorstack.vercel.app
 
 Building:
 - AI-powered writing & editing suite
@@ -44,8 +44,8 @@ Building:
 
 ### » Let’s Connect
 - Portfolio → [kaadz.me](https://kaadz.me)
-- Email → [hi@kaadz.me](mailto:kiwi092020@gmail.com)
-- Twitter/X → [@kaadz_](https://twitter.com/kaad_zz)
+- Email → [kiwi092020@gmail.com](mailto:kiwi092020@gmail.com)
+- Twitter/X → [@kaad_zz](https://twitter.com/kaad_zz)
 - IndieHackers → [indiehackers.com/kaadz](https://indiehackers.com/kaadz)
 
 <div align="center">
