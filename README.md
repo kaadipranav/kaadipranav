@@ -18,11 +18,11 @@
     <img src="https://img.shields.io/badge/Portfolio-kaadz.me-6C5CE7?style=for-the-badge" alt="Portfolio"/>
   </a>
 
-  <br/><br/>
+  <br/><br/><br>
 </div>
 
 
-### ● Currently Shipping
+### » Currently Shipping
 **AuthorStack** — Production-grade SaaS for indie authors (private beta Q1 2026)  
 → https://authorstack.vercel.app
 
@@ -34,7 +34,7 @@ Building:
 - Built-in marketplace (coming soon)
 
 
-### ● Tech Stack
+### » Tech Stack
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
@@ -45,7 +45,7 @@ Building:
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
 
 
-### ● Let’s Connect
+### » Let’s Connect
 - Portfolio → [kaadz.me](https://kaadz.me)
 - Email → [kiwi092020@gmail.com](mailto:kiwi092020@gmail.com)
 - Twitter/X → [@kaad_zz](https://twitter.com/kaad_zz)
