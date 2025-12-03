@@ -1,48 +1,41 @@
-# SentryAI  [![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python&logoColor=white)](https://python.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript&logoColor=white)](https://typescriptlang.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-teal?logo=fastapi)](https://fastapi.tiangolo.com)
-[![ClickHouse](https://img.shields.io/badge/ClickHouse-24.x-green?logo=clickhouse)](https://clickhouse.com)
-[![Redis](https://img.shields.io/badge/Redis-Streams-red?logo=redis)](https://redis.io)
-[![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel)](https://vercel.com)
+<img src="https://raw.githubusercontent.com/kaadzipranav/sentryai/main/.github/banner.png" alt="SentryAI – The Datadog for AI" />
 
-**The observability platform built for production AI**  
-Real-time tracing · Token-level analytics · Cost control · Alerting · Agent debugging
+<div align="center">
+  <br/>
+  <a href="https://sentryai.dev"><img src="https://img.shields.io/badge/status-private_beta_(Jan_2026)-brightgreen?style=for-the-badge" alt="Status"/></a>
+  <img src="https://img.shields.io/badge/founder-solo_→_shipping_like_a_team_of_10-blue?style=for-the-badge" alt="Solo founder"/>
+  <img src="https://img.shields.io/badge/dogfooding-15k%2B_req%2Fday-ff0066?style=for-the-badge" alt="Dogfooding"/>
+  <br/>
+  <h1>SentryAI</h1>
+  <h3>Real-time observability for production LLMs, agents & RAG</h3>
+  <i>Every token traced • Every dollar accounted • Every hallucination caught</i>
+  <br/><br/>
+  <a href="https://twitter.com/kaadz"><img src="https://img.shields.io/twitter/follow/kaadz?style=social&logo=x&label=%40kaadz" alt="Twitter"/></a>
+  <img src="https://img.shields.io/github/stars/kaadzipranav/sentryai?style=social" alt="Stars"/>
+</div>
 
-Think **Sentry × Datadog**, but 100% native for LLMs, agents, and RAG.
+<br/>
 
-![](https://img.shields.io/badge/status-private%20beta%20(Jan%202026)-brightgreen)
-![](https://img.shields.io/badge/founder-solo%20→%20shipping%20like%20a%20team%20of%2010-ff69b4)
-![](https://img.shields.io/badge/dogfooding-10k%2B%20req%2Fday-blue)
+### What people are already using it for (private beta testers)
+- Catching $47k/month cost explosions before they hit the bill  
+- Debugging 47-step agent loops that silently die at step 38  
+- Blocking PII leaks & prompt injections in production  
+- Proving to investors their RAG actually works
 
-### Live Features (already shipped or <7 days away)
-- Full prompt / response / metadata visibility
-- Token & dollar cost breakdown per call
-- Agent step tracing + loop detection
-- PII + prompt injection redaction
-- Real-time dashboard + Recharts graphs
-- Python & JS/TS SDKs (`pip install sentryai` · `npm i sentryai`)
-- Alerting → Slack / Discord / webhook
-- Stripe billing (free tier → Pro → Enterprise)
+### Features (live or <14 days out)
+| Feature                        | Status       | Notes                                    |
+|--------------------------------|--------------|------------------------------------------|
+| Full prompt/response visibility| Live         | Click → expand → copy                   |
+| Token & $-cost per call        | Live         | OpenAI, Anthropic, Groq, etc.           |
+| Agent step graph visualizer    | 7 days       | Loops, branches, tool calls             |
+| PII + injection auto-redaction | Live         | Regex + LlamaGuard 3                    |
+| Real-time dashboard + charts   | Live         | Tailwind + Recharts glory               |
+| SDKs (Python • JS/TS)          | Live         | `pip install sentryai` • `npm i sentryai` |
+| Alerts → Slack/Discord/email   | Live         | Error rate, cost spikes, jailbreaks     |
+| Stripe billing                 | Live         | Free → Pro → pay-as-you-go              |
 
-### Tech stack (built for speed & scale)
-| Layer        | Tech                                      | Why                              |
-|-------------|-------------------------------------------|----------------------------------|
-| Ingest      | FastAPI + Redis Streams                   | 10k+ events/sec, sub-5ms p95     |
-| Storage     | ClickHouse                                | Billions of rows, instant queries|
-| Frontend    | React + TypeScript + Tailwind + Recharts  | Looks like a $100M SaaS          |
-| SDKs        | Python · TypeScript                       | One-line install, auto-batching  |
-
-### Timeline
-- **Jan 2026** → Private beta (DM @kaadz for access)
-- **Feb 2026** → Public launch + waitlist opens
-- **Q2 2026** → First $1M ARR or bust
-
-### Get in
-- Star → follow the rocket
-- Twitter → [@kaadz](https://twitter.com/kaadz) (daily build screenshots)
-- Want in early? reply “beta” under my latest tweet
-
-Built solo in public.  
-If you’re shipping agents or spending >$1k/mo on OpenAI, this will save your ass.
-
-**One founder. One repo. Zero chill.**
+### Built to scale from day 1
+```text
+10k+ events/sec   → FastAPI + Redis Streams
+Billions of rows  → ClickHouse (sub-100ms queries)
+Zero-downtime     → Separate ingest + processor
