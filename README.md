@@ -39,3 +39,19 @@
 10k+ events/sec   → FastAPI + Redis Streams
 Billions of rows  → ClickHouse (sub-100ms queries)
 Zero-downtime     → Separate ingest + processor
+
+Roadmap (no bullshit dates)
+
+- Jan 2026 → Private beta (DM @kaadz or reply “beta” on my latest tweet)
+- Feb 2026 → Public launch + waitlist explodes
+- Q2 2026 → $1M ARR or I delete the repo
+
+  Built in public
+  
+  One founder. One repo. About to 100x the AI observability game.
+  
+  → Follow the chaos on Twitter
+  
+  Star if you're building agents and tired of guessing where your money went
+
+```
