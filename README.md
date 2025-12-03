@@ -10,19 +10,33 @@
 [![Shipping](https://img.shields.io/badge/SOLO-SHIPPING_LIKE_A_TEAM_OF_10-ff0066?style=for-the-badge)](https://twitter.com/kaadz_zz)
 [![Dogfooding](https://img.shields.io/badge/DOGFOODING-15K+_REQ/DAY-00ffff?style=for-the-badge)](https://sentryai.dev)
 
-```ascii
-   _____ ______ _   _ _______ _______     __          _____  
-  / ____|  ____| \ | |__   __|  __ \ \   / /    /\   |_   _| 
- | (___ | |__  |  \| |  | |  | |__) \ \_/ /    /  \    | |   
-  \___ \|  __| | . ` |  | |  |  _  / \   /    / /\ \   | |   
-  ____) | |____| |\  |  | |  | | \ \  | |    / ____ \ _| |_  
- |_____/|______|_| \_|  |_|  |_|  \_\ |_|   /_/    \_\_____|
-                                                              
-         Real-time observability for production LLMs,
-              agents, RAG pipelines & AI workflows
+## Sentry for AI — AI Observability Platform
+
+<div align="center">
+
+```text
+  ███████╗███████╗███╗   ██╗████████╗██████╗ ██╗   ██╗
+  ██╔════╝██╔════╝████╗  ██║╚══██╔══╝██╔══██╗██║   ██║
+  ███████╗█████╗  ██╔██╗ ██║   ██║   ██████╔╝╚██╗ ██╔╝
+  ╚════██║██╔══╝  ██║╚██╗██║   ██║   ██╔══██╗  ╚██╔╝ 
+  ███████║███████╗██║ ╚████║   ██║   ██║  ██║  ╚██║  
+  ╚══════╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝   ╚═╝   
+
+                S E N T R Y   F O R   A I
+
+   Real-time observability for production LLMs, agents, RAG pipelines, and AI workflows.
 ```
 
-[**Get Early Access**](https://sentryai.dev) • [**Docs**](https://docs.sentryai.dev) • [**Twitter**](https://twitter.com/kaadz_zz) • [**Discord**](https://discord.gg/sentryai)
+[![FastAPI](https://img.shields.io/badge/FastAPI-LLM_Ingest_API-05998a?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Python](https://img.shields.io/badge/Python-3.11-black?style=flat&logo=python)](https://www.python.org/)
+[![React](https://img.shields.io/badge/React-18.2-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Redis Streams](https://img.shields.io/badge/Redis_Streams-Ingest_Buffer-red?style=flat&logo=redis&logoColor=white)](https://redis.io/)
+[![ClickHouse](https://img.shields.io/badge/ClickHouse-Hot_Analytics_Store-ffcc00?style=flat&logo=clickhouse&logoColor=000)](https://clickhouse.com/)
+[![Vite](https://img.shields.io/badge/Vite-5-8A2BE2?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind](https://img.shields.io/badge/Tailwind-3.3-38bdf8?style=flat&logo=tailwindcss)](https://tailwindcss.com/)
+[![TanStack Query](https://img.shields.io/badge/TanStack_Query-5-fe4164?style=flat&logo=react-query&logoColor=white)](https://tanstack.com/query)
+[![Mermaid](https://img.shields.io/badge/Diagrams-Mermaid-00b894?style=flat)](https://mermaid.js.org/)
 
 </div>
 
