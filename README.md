@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/kaadzipranav/sentryai/main/.github/banner.png" alt="SentryAI – The Datadog for AI" />
+<img src="https://raw.githubusercontent.com/kaadipranav/sentryai/main/.github/banner.png" alt="SentryAI – The Datadog for AI" />
 
 <div align="center">
   <br/>
