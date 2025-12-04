@@ -2,7 +2,7 @@
 
 
 ### **The last observability platform you'll ever need for AI**
-# •    S E N T R Y   F O R   A I    •
+# ⁍    S E N T R Y   F O R   A I    ⁌
 
 *Every token traced • Every dollar accounted • Every hallucination caught*
 
@@ -40,7 +40,6 @@ Real-time observability for production LLMs, agents, RAG pipelines, and AI workf
 
 </div>
 </div>
----
 
 ## » What Beta Users Are Doing With It
 
