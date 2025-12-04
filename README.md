@@ -1,8 +1,8 @@
 <div align="center">
 
-# •   S E N T R Y   F O R   A I   •
 
 ### **The last observability platform you'll ever need for AI**
+# •    S E N T R Y   F O R   A I    •
 
 *Every token traced • Every dollar accounted • Every hallucination caught*
 
@@ -42,13 +42,13 @@ Real-time observability for production LLMs, agents, RAG pipelines, and AI workf
 </div>
 ---
 
-## 🎯 What Beta Users Are Doing With It
+## » What Beta Users Are Doing With It
 
 <table>
 <tr>
 <td width="50%">
 
-### 💸 Catching Cost Explosions
+### » Catching Cost Explosions
 **Before hitting the bill**
 
 > *"Caught a $47k/month cost explosion before it hit production. The alert fired at step 38 of a recursive agent loop. Saved our runway."*
@@ -58,7 +58,7 @@ Real-time observability for production LLMs, agents, RAG pipelines, and AI workf
 </td>
 <td width="50%">
 
-### 🔍 Debugging Agent Chaos  
+### » Debugging Agent Chaos  
 **47-step loops, visualized**
 
 > *"Finally can see WHY my agent is calling the same tool 47 times. The step graph showed the loop at step 38. Fixed in 10 minutes."*
@@ -70,7 +70,7 @@ Real-time observability for production LLMs, agents, RAG pipelines, and AI workf
 <tr>
 <td>
 
-### 🛡️ Blocking PII Leaks
+### » Blocking PII Leaks
 **Before compliance audit**
 
 > *"Auto-detected PII in 3 prompts during beta testing. Blocked them before production. Compliance team is happy."*
@@ -80,7 +80,7 @@ Real-time observability for production LLMs, agents, RAG pipelines, and AI workf
 </td>
 <td>
 
-### 📊 Proving ROI to Investors
+### » Proving ROI to Investors
 **RAG actually works (with receipts)**
 
 > *"Showed investors our RAG retrieval accuracy went from 40% to 87%. Got the bridge round. SentryAI had the receipts."*
@@ -93,7 +93,7 @@ Real-time observability for production LLMs, agents, RAG pipelines, and AI workf
 
 ---
 
-## ⚡ Features (Live or <14 Days Out)
+## » Features (Live or <14 Days Out)
 
 | Feature | Status | Notes |
 |---------|--------|-------|
@@ -108,7 +108,7 @@ Real-time observability for production LLMs, agents, RAG pipelines, and AI workf
 
 ---
 
-## 🚀 Get Started in 60 Seconds
+## » Get Started in 60 Seconds
 
 ### Python
 ```python
@@ -160,7 +160,7 @@ const response = await client.messages.create({
 
 ---
 
-## 📦 Built to Scale From Day 1
+## » Built to Scale From Day 1
 
 ```
 10k+ events/sec    → FastAPI + Redis Streams
@@ -178,7 +178,7 @@ Zero-downtime      → Separate ingest + processor
 
 ---
 
-## 🎪 One Founder. One Repo. About to 10x the AI observability game.
+## » One Founder. One Repo. About to 10x the AI observability game.
 
 **Built in public.**
 
@@ -208,7 +208,7 @@ Observability: Sentry (ironic) + Prometheus
 
 ---
 
-## 💀 Competitors (and why they're sleeping)
+## » Competitors (and why they're sleeping)
 
 | Tool | What They Do | What They Miss |
 |------|--------------|----------------|
@@ -222,7 +222,7 @@ Observability: Sentry (ironic) + Prometheus
 
 ---
 
-## 📊 Pricing (Beta Access)
+## » Pricing (Beta Access)
 
 | Tier | Price | Events/Month | Features |
 |------|-------|--------------|----------|
@@ -236,7 +236,7 @@ Observability: Sentry (ironic) + Prometheus
 
 ---
 
-## 🔗 Links
+## » Links
 
 - **Website:** [sentryai.dev](https://sentryai.dev)
 - **Docs:** [docs.sentryai.dev](https://docs.sentryai.dev)
@@ -246,7 +246,7 @@ Observability: Sentry (ironic) + Prometheus
 
 ---
 
-## ⭐ Star This Repo If You Want To See It Happen
+## ★ Star This Repo If You Want To See It Happen  
 
 ```
 git clone https://github.com/kaadipranav/sentryai
@@ -260,7 +260,7 @@ make watch-me-build-in-public
 
 <div align="center">
 
-### 🎯 The Mission
+### » The Mission
 
 **Make AI debugging as easy as `console.log()`**
 
@@ -275,6 +275,6 @@ Stop getting wrecked by PII leaks.
 *Built with rage, caffeine, and Claude Sonnet 4.5*
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/kaadz_zz?style=social)](https://twitter.com/kaadz_zz)
-[![GitHub Stars](https://img.shields.io/github/stars/kaadipranav/sentryai?style=social)](https://github.com/kaadipranav/sentryai)
+[![GitHub Stars](https://img.shields.io/github/stars/kaadipranav/sentryai?style=social)](https://github.com/kaadipranav/sentry-for-ai)
 
 </div>
