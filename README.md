@@ -15,16 +15,16 @@
 <div align="center">
 
 ```ascii
-  ███████╗███████╗███╗   ██╗████████╗██████╗ ██╗   ██╗
-  ██╔════╝██╔════╝████╗  ██║╚══██╔══╝██╔══██╗██║   ██║
-  ███████╗█████╗  ██╔██╗ ██║   ██║   ██████╔╝╚██╗ ██╔╝
-  ╚════██║██╔══╝  ██║╚██╗██║   ██║   ██╔══██╗  ╚██╔╝ 
-  ███████║███████╗██║ ╚████║   ██║   ██║  ██║  ╚██║  
-  ╚══════╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝   ╚═╝   
+███████╗███████╗███╗   ██╗████████╗██████╗ ██╗   ██╗
+██╔════╝██╔════╝████╗  ██║╚══██╔══╝██╔══██╗██║   ██║
+███████╗█████╗  ██╔██╗ ██║   ██║   ██████╔╝╚██╗ ██╔╝
+╚════██║██╔══╝  ██║╚██╗██║   ██║   ██╔══██╗  ╚██╔╝ 
+███████║███████╗██║ ╚████║   ██║   ██║  ██║  ╚██║  
+╚══════╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝   ╚═╝   
 
-                S E N T R Y   F O R   A I
+S E N T R Y   F O R   A I
 
-   Real-time observability for production LLMs, agents, RAG pipelines, and AI workflows.
+Real-time observability for production LLMs, agents, RAG pipelines, and AI workflows.
 ```
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-LLM_Ingest_API-05998a?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
