@@ -39,7 +39,7 @@
 [![Mermaid](https://img.shields.io/badge/Diagrams-Mermaid-00b894?style=flat)](https://mermaid.js.org/)
 
 </div>
-
+</div>
 ---
 
 ## 🎯 What Beta Users Are Doing With It
