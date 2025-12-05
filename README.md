@@ -1,4 +1,4 @@
-<div align="center">
+  <div align="center">
 
 
 ### **The last observability platform you'll ever need for AI**
@@ -25,66 +25,89 @@
 S E N T R Y   F O R   A I
 
 Real-time observability for production LLMs, agents, RAG pipelines, and AI workflows.
+```  
+
+### **The Sentry + Datadog + LangSmith for AI/Agent Workflows**
+
+[![Website](https://img.shields.io/badge/Website-lynex.dev-blue?style=for-the-badge&logo=vercel)](https://lynex.dev)
+[![Twitter Follow](https://img.shields.io/twitter/follow/yourusername?style=for-the-badge&logo=x&color=1DA1F2)](https://twitter.com/yourusername)
+[![Discord](https://img.shields.io/discord/1234567890?style=for-the-badge&logo=discord&color=5865F2)](https://discord.gg/lynex)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+![GitHub Stats](https://img.shields.io/github/stars/yourusername/lynex?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/yourusername/lynex?style=social)
+
+</div>
+
+---
+
+## 🚀 Currently Building: **Lynex**
+
+> **Mission:** Help teams ship AI features faster, at lower cost and risk, by giving them instant, actionable visibility into prompts, model calls, tool calls, pipeline health, costs, and failure modes.
+
+<div align="center">
+
+### 🎯 **The Problem We're Solving**
+
+</div>
+
+```mermaid
+graph LR
+    A[Silent LLM Failures] --> E[Lynex]
+    B[Unobserved Cost Spikes] --> E
+    C[Complex Agent Debugging] --> E
+    D[Hallucination Detection] --> E
+    E --> F[10x Faster MTTD/MTTR]
+    E --> G[20-60% Cost Savings]
+    E --> H[Compliance Ready]
 ```
 
-[![FastAPI](https://img.shields.io/badge/FastAPI-LLM_Ingest_API-05998a?style=flat&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Python](https://img.shields.io/badge/Python-3.11-black?style=flat&logo=python)](https://www.python.org/)
-[![React](https://img.shields.io/badge/React-18.2-61DAFB?style=flat&logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Redis Streams](https://img.shields.io/badge/Redis_Streams-Ingest_Buffer-red?style=flat&logo=redis&logoColor=white)](https://redis.io/)
-[![ClickHouse](https://img.shields.io/badge/ClickHouse-Hot_Analytics_Store-ffcc00?style=flat&logo=clickhouse&logoColor=000)](https://clickhouse.com/)
-[![Vite](https://img.shields.io/badge/Vite-5-8A2BE2?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Tailwind](https://img.shields.io/badge/Tailwind-3.3-38bdf8?style=flat&logo=tailwindcss)](https://tailwindcss.com/)
-[![TanStack Query](https://img.shields.io/badge/TanStack_Query-5-fe4164?style=flat&logo=react-query&logoColor=white)](https://tanstack.com/query)
-[![Mermaid](https://img.shields.io/badge/Diagrams-Mermaid-00b894?style=flat)](https://mermaid.js.org/)
+---
 
-</div>
-</div>
-
-## » What Beta Users Are Doing With It
+## ⚡ What Makes Lynex Different
 
 <table>
 <tr>
 <td width="50%">
 
-### » Catching Cost Explosions
-**Before hitting the bill**
-
-> *"Caught a $47k/month cost explosion before it hit production. The alert fired at step 38 of a recursive agent loop. Saved our runway."*
-> 
-> — AI Startup Founder, 12-person team
+### 🔍 **Deep Observability**
+- Real-time LLM pipeline monitoring
+- Agent step-by-step debugger
+- Tool call chain visualization
+- Prompt versioning & diffing
+- Multi-model comparison UI
 
 </td>
 <td width="50%">
 
-### » Debugging Agent Chaos  
-**47-step loops, visualized**
-
-> *"Finally can see WHY my agent is calling the same tool 47 times. The step graph showed the loop at step 38. Fixed in 10 minutes."*
-> 
-> — Solo dev building AI SaaS
+### 💰 **Cost Intelligence**
+- Per-call cost breakdown
+- Anomaly detection for spend spikes
+- Token usage optimization insights
+- Budget alerts & controls
+- ROI tracking per model/prompt
 
 </td>
 </tr>
 <tr>
-<td>
+<td width="50%">
 
-### » Blocking PII Leaks
-**Before compliance audit**
-
-> *"Auto-detected PII in 3 prompts during beta testing. Blocked them before production. Compliance team is happy."*
-> 
-> — Healthcare AI Product Manager
+### 🛡️ **Security & Governance**
+- Hallucination detection engine
+- PII scanning & auto-masking
+- Policy rules enforcement
+- Compliance audit trails (SOC2, HIPAA)
+- Encrypted-at-rest + VPC options
 
 </td>
-<td>
+<td width="50%">
 
-### » Proving ROI to Investors
-**RAG actually works (with receipts)**
-
-> *"Showed investors our RAG retrieval accuracy went from 40% to 87%. Got the bridge round. SentryAI had the receipts."*
-> 
-> — B2B AI Platform, Series A
+### 🚢 **Developer First**
+- One-line SDK integration
+- Python + JavaScript + API
+- OpenTelemetry compatible
+- Slack/PagerDuty/Datadog integrations
+- Self-serve onboarding
 
 </td>
 </tr>
@@ -92,188 +115,223 @@ Real-time observability for production LLMs, agents, RAG pipelines, and AI workf
 
 ---
 
-## » Features (Live or <14 Days Out)
-
-| Feature | Status | Notes |
-|---------|--------|-------|
-| **Full prompt/response visibility** | 🟢 Live | Click → expand → copy |
-| **Token & $ cost per call** | 🟢 Live | OpenAI, Anthropic, Groq, etc. |
-| **Agent step graph visualizer** | 🟡 7 days | Loops, branches, tool calls |
-| **PII + injection auto-detection** | 🟢 Live | Regex + LlamaGuard 3 |
-| **Real-time dashboard + charts** | 🟢 Live | Tailwind + Recharts glory |
-| **SDKs (Python + JS/TS)** | 🟢 Live | `pip install sentryai` • `npm i sentryai` |
-| **Alerts → Slack/Discord/email** | 🟢 Live | Error rate, cost spikes, jailbreaks |
-| **Stripe billing** | 🟢 Live | Free → Pro → pay-as-you-go |
-
----
-
-## » Get Started in 60 Seconds
-
-### Python
-```python
-pip install sentryai
-```
+## 💻 Quick Start
 
 ```python
-import sentryai
-from openai import OpenAI
+# Install
+pip install ai-sentry
 
-# One line init
-sentryai.init(api_key="sk_live_xxx")
+# Initialize (literally one line)
+from aisentry import Client
+client = Client(api_key="your_key")
 
-# Wrap your client (auto-instruments everything)
-client = sentryai.wrap(OpenAI())
-
-# That's it. Every call is now traced.
-response = client.chat.completions.create(
-    model="gpt-4",
-    messages=[{"role": "user", "content": "Hello!"}]
+# Start logging
+client.log_prompt(
+    project_id="my-app",
+    prompt="Analyze this customer feedback...",
+    model="gpt-4o-mini"
 )
-
-# View in dashboard → https://app.sentryai.dev
 ```
 
-### JavaScript/TypeScript
-```bash
-npm install sentryai
-```
+```javascript
+// Node.js
+import { AISentry } from 'ai-sentry';
 
-```typescript
-import { SentryAI } from 'sentryai';
-import Anthropic from '@anthropic-ai/sdk';
-
-// One line init
-SentryAI.init({ apiKey: 'sk_live_xxx' });
-
-// Wrap your client
-const client = SentryAI.wrap(new Anthropic());
-
-// Every call traced automatically
-const response = await client.messages.create({
-    model: 'claude-sonnet-4',
-    messages: [{ role: 'user', content: 'Hello!' }]
+const client = new AISentry({ apiKey: 'your_key' });
+await client.logPrompt({
+  projectId: 'my-app',
+  prompt: 'Generate product description...',
+  model: 'claude-sonnet-4'
 });
 ```
 
-**Zero config. Zero refactoring. Just wrap and ship.**
+---
+
+## 🎨 Tech Stack
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=for-the-badge&logo=clickhouse&logoColor=black)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+
+</div>
 
 ---
 
-## » Built to Scale From Day 1
+## 📊 Feature Roadmap
 
-```
-10k+ events/sec    → FastAPI + Redis Streams
-Billions of rows   → ClickHouse (sub-10ms queries)  
-Zero-downtime      → Separate ingest + processor
-```
+<details>
+<summary><b>✅ MVP (Shipped)</b></summary>
 
-**Roadmap (no bullshit dates)**
+- [x] One-line SDK (Python + JavaScript)
+- [x] Real-time ingestion API
+- [x] Timeline dashboard with search
+- [x] Basic alerts (webhooks + email)
+- [x] Token usage & cost tracking
+- [x] Free tier + billing integration
 
-```
-→ Jan 2026 = Private beta (DM @kaadz_zz on my latest tweet)
-→ Feb 2026 = Public launch + waitlist explodes  
-→ Q2 2026 = $1M ARR or I delete the repo
-```
+</details>
 
----
+<details>
+<summary><b>🚧 In Progress</b></summary>
 
-## » One Founder. One Repo. About to 10x the AI observability game.
+- [ ] Agent step debugger with replay
+- [ ] Model & prompt diffing
+- [ ] Hallucination detection engine
+- [ ] Tool call chain visualization
+- [ ] Slack/PagerDuty integrations
+- [ ] Synthetic monitoring
 
-**Built in public.**
+</details>
 
-- Started: December 2024
-- Shipped MVP: 3 weeks
-- First paying customer: Week 4
-- First $1K MRR: Week 8 (or I quit)
+<details>
+<summary><b>🎯 Coming Soon</b></summary>
 
-**The Tech Stack** (because you're gonna ask):
+- [ ] Multi-model comparison UI
+- [ ] Automated prompt scorer & optimizer
+- [ ] LLM assertions & invariants
+- [ ] SSO/RBAC for teams
+- [ ] VPC/on-prem deployment
+- [ ] Compliance certifications (SOC2, ISO27001)
 
-```
-Frontend:  React + TypeScript + Tailwind + Recharts
-Backend:   FastAPI + Python 3.11
-Queue:     Redis Streams (Upstash)
-Database:  ClickHouse (TimeSeries OLAP god-tier)
-Hosting:   DigitalOcean + Vercel
-Auth:      Appwrite (self-hosted)
-Billing:   Stripe + usage metering
-Observability: Sentry (ironic) + Prometheus
-```
-
-**Why solo?**
-- Ship 10x faster without meetings
-- AI pair programming (Claude Sonnet 4.5)
-- 100% ownership until Series A
-- Prove it works before hiring
+</details>
 
 ---
 
-## » Competitors (and why they're sleeping)
+## 🎯 Target Customers
 
-| Tool | What They Do | What They Miss |
-|------|--------------|----------------|
-| **LangSmith** | Good observability | $$$, slow, complex setup |
-| **Helicone** | Simple proxy | Limited features, no agent debugging |
-| **Datadog** | Added AI support | Not AI-native, expensive AF |
-| **Weights & Biases** | ML training focus | Not for production monitoring |
-| **Arize AI** | ML observability | Academic, not dev-first |
+<div align="center">
 
-**SentryAI:** Built for devs who ship AI features daily. Fast, cheap, powerful.
+| Segment | Description | Pricing |
+|---------|-------------|---------|
+| 🏠 **Indie Builders** | Solo AI devs, rapid prototyping | $9-39/mo |
+| 🚀 **Startups** | 1-20 devs, need reliability + cost control | $49-499/mo |
+| 🏢 **Mid-Market** | 20-200 devs, governance + compliance | $999-5k/mo |
+| 🏛️ **Enterprise** | Custom contracts, on-prem, SLAs | Custom |
 
----
-
-## » Pricing (Beta Access)
-
-| Tier | Price | Events/Month | Features |
-|------|-------|--------------|----------|
-| **Free** | $0 | 50K | Basic dashboard, 7-day retention |
-| **Hobby** | $9 | 500K | Alerts, Slack integration, 30-day retention |
-| **Pro** | $49 | 5M | Team seats, RBAC, 90-day retention |
-| **Scale** | $199 | 20M | SSO, SLA, 1-year retention |
-| **Enterprise** | Custom | Unlimited | On-prem, contracts, white-glove |
-
-**All beta users get Pro for 6 months free.** DM for access.
+</div>
 
 ---
 
-## » Links
+## 🌟 Value Proposition
 
-- **Website:** [sentryai.dev](https://sentryai.dev)
-- **Docs:** [docs.sentryai.dev](https://docs.sentryai.dev)
-- **Twitter:** [@kaadz_zz](https://twitter.com/kaadz_zz)
-- **Discord:** [Join the AI debugging cult](https://discord.gg/sentryai)
-- **Email:** kaadi@sentryai.dev
+<div align="center">
+
+### **Reduce MTTD/MTTR by 10x**
+### **Save 20-60% on Model Spend**
+### **Ship AI Features with Confidence**
+
+</div>
 
 ---
 
-## ★ Star This Repo If You Want To See It Happen  
+## 📈 Growth Metrics (Building in Public)
+
+<div align="center">
 
 ```
-git clone https://github.com/kaadipranav/sentryai
-cd sentryai
-make watch-me-build-in-public
+┌─────────────────────────────────────────────┐
+│  📊 Current MRR:     [GROWING]              │
+│  👥 Active Projects:  [SCALING]             │
+│  🚀 Weekly Signups:   [ACCELERATING]        │
+│  ⚡ Avg Onboarding:   < 5 minutes           │
+└─────────────────────────────────────────────┘
 ```
 
-**Building this solo. Every star = fuel.**
+</div>
+
+---
+
+## 🤝 Connect & Collaborate
+
+<div align="center">
+
+**Let's build the future of AI observability together**
+
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/lynex)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:you@lynex.dev)
+[![WHOP](https://img.shields.io/badge/WHOP-000000?style=for-the-badge&logo=whop&logoColor=white)](https://whop.com/lynex)
+
+</div>
+
+---
+
+## 🎁 Special Offers
+
+<div align="center">
+
+**🔥 Early Adopter Program**
+> Get 50% off your first 6 months + priority feature requests
+
+**💼 Agency/Consultant Program**
+> Refer clients, earn 20% recurring commission
+
+**🎓 Student/OSS Developer Program**
+> Free Pro plan for qualifying projects
+
+</div>
+
+---
+
+## 📚 Resources
+
+- 📖 [Documentation](https://docs.lynex.dev)
+- 🎥 [Video Tutorials](https://youtube.com/@lynex)
+- 📝 [Blog & Case Studies](https://lynex.dev/blog)
+- 🧪 [Example Projects](https://github.com/yourusername/lynex-examples)
+- 💬 [Community Discord](https://discord.gg/lynex)
+
+---
+
+## 🌎 We're Hiring!
+
+<div align="center">
+
+**Building the observability layer for the AI era**
+
+Interested in:
+- **Backend Engineering** (Python, Go, Kafka, ClickHouse)
+- **Frontend Engineering** (React, TypeScript, data visualization)
+- **DevRel** (developer advocacy, content creation)
+- **Growth** (PLG strategies, developer marketing)
+
+[View Open Positions →](https://lynex.dev/careers)
+
+</div>
 
 ---
 
 <div align="center">
 
-### » The Mission
+### ⭐ Star the repo to follow our journey!
 
-**Make AI debugging as easy as `console.log()`**
+```
+ _   _          _   _____ _                _ 
+| \ | |   _____| |_|_   _(_)_ __ ___   ___| |
+|  \| |  / _ \ \ /  | | | | '_ ` _ \ / _ \ |
+| |\  | |  __/>  <  | | | | | | | | |  __/_|
+|_| \_|  \___/_/\_\ |_| |_|_| |_| |_|\___(_)
+```
 
-Stop guessing why your agents hallucinate.  
-Stop bleeding money on bad prompts.  
-Stop getting wrecked by PII leaks.
+**Because every AI system deserves world-class observability**
 
-**Start shipping with confidence.**
+![Profile Views](https://komarev.com/ghpvc/?username=yourusername&color=blueviolet&style=for-the-badge)
+
+</div>
 
 ---
 
-*Built with rage, caffeine, and Claude Sonnet 4.5*
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/kaadz_zz?style=social)](https://twitter.com/kaadz_zz)
-[![GitHub Stars](https://img.shields.io/github/stars/kaadipranav/sentryai?style=social)](https://github.com/kaadipranav/sentry-for-ai)
-
+<div align="center">
+<sub>Built with ❤️ for the AI developer community | © 2024 Lynex | MIT License</sub>
 </div>
