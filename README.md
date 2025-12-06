@@ -1,25 +1,25 @@
 <div align="center">
 
 ```ascii
-██╗     ██╗   ██╗███╗   ██╗███████╗██╗  ██╗
-██║     ██╔╝ ██╔╝████╗  ██║██╔════╝╚██╗██╔╝
-██║     ╚██╗██╔╝ ██╔██╗ ██║█████╗   ╚███╔╝ 
-██║      ╚███╔╝  ██║╚██╗██║██╔══╝   ██╔██╗ 
-███████╗ ╚██╔╝   ██║ ╚████║███████╗██╔╝ ██╗
-╚══════╝  ╚═╝    ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
+██╗    ██╗ █████╗ ████████╗ ██████╗██╗  ██╗██╗     ██╗     ███╗   ███╗
+██║    ██║██╔══██╗╚══██╔══╝██╔════╝██║  ██║██║     ██║     ████╗ ████║
+██║ █╗ ██║███████║   ██║   ██║     ███████║██║     ██║     ██╔████╔██║
+██║███╗██║██╔══██║   ██║   ██║     ██╔══██║██║     ██║     ██║╚██╔╝██║
+╚███╔███╔╝██║  ██║   ██║   ╚██████╗██║  ██║███████╗███████╗██║ ╚═╝ ██║
+ ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝     ╚═╝
 ```
 
 # ⁍ S E N T R Y  F O R  A I ⁌
 
 *Every token traced • Every dollar accounted • Every hallucination caught*
 
-[![Status](https://img.shields.io/badge/STATUS-PRIVATE_BETA-00ff00?style=for-the-badge)](https://lynex.dev)
+[![Status](https://img.shields.io/badge/STATUS-PRIVATE_BETA-00ff00?style=for-the-badge)](https://WatchLLM.dev)
 [![Shipping](https://img.shields.io/badge/SOLO-SHIPPING_LIKE_A_TEAM_OF_10-ff0066?style=for-the-badge)](https://twitter.com/kaadz_zz)
-[![Dogfooding](https://img.shields.io/badge/DOGFOODING-15K+_REQ/DAY-00ffff?style=for-the-badge)](https://lynex.dev)
+[![Dogfooding](https://img.shields.io/badge/DOGFOODING-15K+_REQ/DAY-00ffff?style=for-the-badge)](https://WatchLLM.dev)
 
 [![Twitter](https://img.shields.io/twitter/follow/kaadz_zz?style=for-the-badge&logo=x&color=1DA1F2)](https://twitter.com/kaadz_zz)
-[![Discord](https://img.shields.io/badge/Discord-Join_Beta-5865F2?style=for-the-badge&logo=discord)](https://discord.gg/lynex)
-![Stars](https://img.shields.io/github/stars/yourusername/lynex?style=for-the-badge&color=yellow)
+[![Discord](https://img.shields.io/badge/Discord-Join_Beta-5865F2?style=for-the-badge&logo=discord)](https://discord.gg/WatchLLM)
+![Stars](https://img.shields.io/github/stars/yourusername/WatchLLM?style=for-the-badge&color=yellow)
 
 </div>
 
@@ -35,7 +35,7 @@
 
 ```mermaid
 graph LR
-    A[🔴 Silent Failures] --> E[⚡ Lynex]
+    A[🔴 Silent Failures] --> E[⚡ WatchLLM]
     B[💸 Cost Spikes] --> E
     C[🤖 Agent Chaos] --> E
     D[🎭 Hallucinations] --> E
@@ -53,7 +53,7 @@ graph LR
 <td width="50%">
 
 ```python
-pip install ai-sentry
+pip install watchllm
 
 from aisentry import Client
 c = Client(api_key="sk_xxx")
@@ -68,9 +68,9 @@ c.log_prompt(
 <td width="50%">
 
 ```javascript
-npm i ai-sentry
+npm i watchllm
 
-import { AISentry } from 'ai-sentry';
+import { AISentry } from 'watchllm';
 const c = new AISentry({ 
   apiKey: 'sk_xxx' 
 });
@@ -157,11 +157,11 @@ await c.logPrompt({
 
 <div align="center">
 
-📖 [**Docs**](https://docs.lynex.dev) • 
-🎥 [**Demos**](https://youtube.com/@lynex) • 
-💬 [**Discord**](https://discord.gg/lynex) • 
+📖 [**Docs**](https://docs.WatchLLM.dev) • 
+🎥 [**Demos**](https://youtube.com/@WatchLLM) • 
+💬 [**Discord**](https://discord.gg/WatchLLM) • 
 🐦 [**Twitter**](https://twitter.com/kaadz_zz) • 
-🛍️ [**WHOP**](https://whop.com/lynex)
+🛍️ [**WHOP**](https://whop.com/WatchLLM)
 
 </div>
 
@@ -199,6 +199,6 @@ Because every AI system deserves world-class observability
 
 ---
 
-<sub>Built with ❤️ for AI builders | MIT Licensed | © 2024 Lynex</sub>
+<sub>Built with ❤️ for AI builders | MIT Licensed | © 2024 WatchLLM</sub>
 
 </div>
