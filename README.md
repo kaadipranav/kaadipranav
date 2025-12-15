@@ -3,81 +3,93 @@
 ```ascii
 ██╗    ██╗ █████╗ ████████╗ ██████╗██╗  ██╗██╗     ██╗     ███╗   ███╗
 ██║    ██║██╔══██╗╚══██╔══╝██╔════╝██║  ██║██║     ██║     ████╗ ████║
-██║ █╗ ██║███████║   ██║   ██║     ███████║██║     ██║     ██╔████╔██║
+██║ █╗ ██║███████║   ██║   ██║     ███████║██║     ██║     ██║╚██╔██║
 ██║███╗██║██╔══██║   ██║   ██║     ██╔══██║██║     ██║     ██║╚██╔╝██║
 ╚███╔███╔╝██║  ██║   ██║   ╚██████╗██║  ██║███████╗███████╗██║ ╚═╝ ██║
  ╚══╝╚══╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝     ╚═╝
 ```
 
-# ⁍ S E N T R Y  F O R  A I ⁌
+### *Cut AI costs by 70% with semantic caching • Drop-in OpenAI replacement*
 
-*Every token traced • Every dollar accounted • Every hallucination caught*
+[![LIVE](https://img.shields.io/badge/🚀_LIVE-watchllm.dev-00ff88?style=for-the-badge)](https://watchllm.dev)
+[![Deployed](https://img.shields.io/badge/⚡_CLOUDFLARE-WORKERS_@_EDGE-FF6B35?style=for-the-badge)](https://proxy.watchllm.dev)
+[![Ship](https://img.shields.io/badge/💪_SOLO-SHIPPING_FAST-ff0066?style=for-the-badge)](https://twitter.com/kaadz_zz)
 
-[![Status](https://img.shields.io/badge/STATUS-PRIVATE_BETA-00ff00?style=for-the-badge)](https://WatchLLM.dev)
-[![Shipping](https://img.shields.io/badge/SOLO-SHIPPING_LIKE_A_TEAM_OF_10-ff0066?style=for-the-badge)](https://twitter.com/kaadz_zz)
-[![Dogfooding](https://img.shields.io/badge/DOGFOODING-15K+_REQ/DAY-00ffff?style=for-the-badge)](https://WatchLLM.dev)
-
-[![Twitter](https://img.shields.io/twitter/follow/kaadz_zz?style=for-the-badge&logo=x&color=1DA1F2)](https://twitter.com/kaadz_zz)
-[![Discord](https://img.shields.io/badge/Discord-Join_Beta-5865F2?style=for-the-badge&logo=discord)](https://discord.gg/WatchLLM)
-![Stars](https://img.shields.io/github/stars/yourusername/WatchLLM?style=for-the-badge&color=yellow)
+[![Twitter](https://img.shields.io/twitter/follow/kaadz_zz?style=for-the-badge&logo=x&color=000000&labelColor=1DA1F2)](https://twitter.com/kaadz_zz)
+[![GitHub Stars](https://img.shields.io/github/stars/kaadipranav/WATCHLLM?style=for-the-badge&logo=github&color=black)](https://github.com/kaadipranav/WATCHLLM)
 
 </div>
 
 ---
 
-<div align="center">
-
-## 🎯 The Sentry + Datadog + LangSmith for AI
-
-**10x faster MTTD/MTTR** • **20-60% cost savings** • **Compliance-ready from day one**
-
-</div>
+## 🎯 One Change. Massive Savings.
 
 ```mermaid
 graph LR
-    A[🔴 Silent Failures] --> E[⚡ WatchLLM]
-    B[💸 Cost Spikes] --> E
-    C[🤖 Agent Chaos] --> E
-    D[🎭 Hallucinations] --> E
-    E --> F[📊 Full Visibility]
-    E --> G[💰 Cost Control]
-    E --> H[🛡️ Compliance]
+    A[Your App 💻] --> B{WatchLLM 🔥}
+    B -->|Cache HIT ✅| C[Return $0.00]
+    B -->|Cache MISS ❌| D[OpenAI/Anthropic/Groq]
+    D --> E[Cache Response]
+    E --> C
+    style B fill:#00ff88,stroke:#00cc66,color:#000
+    style C fill:#ffeb3b,stroke:#ffc107,color:#000
+    style D fill:#ff6b6b,stroke:#cc5555,color:#fff
 ```
+
+<div align="center">
+
+**Before:** `baseURL: "https://api.openai.com/v1"` 💸 **$600/mo**  
+**After:** `baseURL: "https://proxy.watchllm.dev/v1"` 💰 **$180/mo**
+
+### **→ $420 saved/month** • **70% cost reduction** • **Zero code changes**
+
+</div>
 
 ---
 
-## ⚡ One-Line Integration
+## ⚡ Live in 60 Seconds
 
 <table>
 <tr>
 <td width="50%">
 
-```python
-pip install watchllm
+### JavaScript
+```javascript
+const OpenAI = require('openai');
 
-from aisentry import Client
-c = Client(api_key="sk_xxx")
-c.log_prompt(
-  project_id="prod",
-  prompt="Analyze...",
-  model="gpt-4o-mini"
-)
+const client = new OpenAI({
+  apiKey: 'lgw_proj_xxxxx', // 👈 Your WatchLLM key
+  baseURL: 'https://proxy.watchllm.dev/v1'
+});
+
+const response = await client.chat.completions.create({
+  model: 'gpt-4o',
+  messages: [{ role: 'user', content: 'Hello!' }]
+});
+
+// Check if cached
+console.log(response.headers['x-cache']); // HIT or MISS
 ```
 
 </td>
 <td width="50%">
 
-```javascript
-npm i watchllm
+### Python
+```python
+from openai import OpenAI
 
-import { AISentry } from 'watchllm';
-const c = new AISentry({ 
-  apiKey: 'sk_xxx' 
-});
-await c.logPrompt({
-  projectId: 'prod',
-  prompt: 'Generate...'
-});
+client = OpenAI(
+  api_key='lgw_proj_xxxxx',  # 👈 Your WatchLLM key
+  base_url='https://proxy.watchllm.dev/v1'
+)
+
+response = client.chat.completions.create(
+  model='gpt-4o',
+  messages=[{'role': 'user', 'content': 'Hello!'}]
+)
+
+# Check if cached
+print(response.headers['x-cache'])  # HIT or MISS
 ```
 
 </td>
@@ -86,51 +98,81 @@ await c.logPrompt({
 
 ---
 
-## 🔥 Core Features
+## 🔥 Tech Stack
 
 <div align="center">
 
-| 🔍 Observability | 💰 Cost Intel | 🛡️ Security | 🚢 DevEx |
+**Edge-first • Global • Blazing Fast**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Hono](https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white)
+
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Upstash](https://img.shields.io/badge/Upstash_Redis-00E9A3?style=for-the-badge&logo=redis&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+</div>
+
+---
+
+## 🎨 Architecture
+
+```mermaid
+flowchart TB
+    subgraph "Your App"
+        A[OpenAI SDK]
+    end
+    
+    subgraph "WatchLLM Edge @ 300+ Locations"
+        B[Cloudflare Worker<br/>Hono Router]
+        C[Semantic Cache<br/>SHA-256 Hash]
+        D[Rate Limiter<br/>Per Project/Plan]
+        E[Usage Logger<br/>Cost Tracking]
+    end
+    
+    subgraph "Providers"
+        F[OpenAI]
+        G[Anthropic]
+        H[Groq]
+        I[OpenRouter]
+    end
+    
+    subgraph "Data Layer"
+        J[(Upstash Redis<br/>Cache + Rate Limits)]
+        K[(Supabase<br/>Auth + Usage Logs)]
+    end
+    
+    A -->|1. Request| B
+    B -->|2. Check Cache| C
+    C -->|3. HIT?| J
+    J -->|4. Return Cached| A
+    C -->|5. MISS?| D
+    D -->|6. Rate OK?| E
+    E -->|7. Forward| F & G & H & I
+    F & G & H & I -->|8. Response| E
+    E -->|9. Log + Cache| J & K
+    E -->|10. Return| A
+    
+    style B fill:#FF6B35,stroke:#FF5722,color:#fff
+    style C fill:#00ff88,stroke:#00cc66,color:#000
+    style J fill:#00E9A3,stroke:#00CC88,color:#000
+```
+
+---
+
+## 📊 Shipped Features
+
+<div align="center">
+
+| 🎯 Core | 💰 Business | 🛡️ DX | 🚀 Scale |
 |:---:|:---:|:---:|:---:|
-| LLM pipeline monitoring | Per-call breakdown | Hallucination detection | One-line SDK |
-| Agent step debugger | Spend anomalies | PII auto-masking | OpenTelemetry |
-| Tool call chains | Token optimization | Policy enforcement | Slack/PagerDuty |
-| Prompt versioning | Budget alerts | SOC2/HIPAA audit trails | 5min onboarding |
-
-</div>
-
----
-
-## 🎨 Built With
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white)
-![K8s](https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-
-</div>
-
----
-
-## 📊 Roadmap
-
-<div align="center">
-
-| ✅ Shipped | 🚧 Building | 🎯 Next |
-|:---|:---|:---|
-| SDK (Py/JS) | Agent debugger | Multi-model UI |
-| Real-time API | Hallucination engine | Prompt optimizer |
-| Timeline dashboard | Tool call viz | LLM assertions |
-| Alerts & webhooks | Cost anomalies | SSO/RBAC |
-| Token tracking | Slack integration | VPC/on-prem |
+| ✅ Semantic caching | ✅ Whop payments | ✅ 2-min setup | ✅ Edge deployment |
+| ✅ Multi-provider | ✅ Usage tracking | ✅ OpenAI compatible | ✅ Global CDN |
+| ✅ Rate limiting | ✅ Cost analytics | ✅ Real-time logs | ✅ Auto-scaling |
+| ✅ API key mgmt | ✅ Billing alerts | ✅ Error tracking | ✅ 99.9% uptime |
 
 </div>
 
@@ -140,28 +182,14 @@ await c.logPrompt({
 
 <div align="center">
 
-| 🏠 Indie | 🚀 Startup | 🏢 Team | 🏛️ Enterprise |
-|:---:|:---:|:---:|:---:|
-| **$9/mo** | **$49/mo** | **$199/mo** | **Custom** |
-| 500K tokens | 5M tokens | 20M tokens | Unlimited |
-| Basic alerts | Team seats | SSO/RBAC | On-prem |
-| Email support | Slack alerts | SLA | White-glove |
+| 🆓 Free | 🏃 Starter | ⚡ Pro |
+|:---:|:---:|:---:|
+| **$0/mo** | **$29/mo** | **$49/mo** |
+| 50K requests | 250K requests | 1M requests |
+| 3 projects | 10 projects | Unlimited |
+| Community | Email support | Priority support |
 
-**🎁 50% OFF** for early adopters • **Free** for OSS projects
-
-</div>
-
----
-
-## 🔗 Quick Links
-
-<div align="center">
-
-📖 [**Docs**](https://docs.WatchLLM.dev) • 
-🎥 [**Demos**](https://youtube.com/@WatchLLM) • 
-💬 [**Discord**](https://discord.gg/WatchLLM) • 
-🐦 [**Twitter**](https://twitter.com/kaadz_zz) • 
-🛍️ [**WHOP**](https://whop.com/WatchLLM)
+**[Start Free →](https://watchllm.dev/signup)**
 
 </div>
 
@@ -172,16 +200,18 @@ await c.logPrompt({
 <div align="center">
 
 ```ascii
-┌───────────────────────────────────────┐
-│  📊  MRR: $X → $Y (↑Z%)              │
-│  👥  Active Projects: 100+            │
-│  🚀  Weekly Signups: Accelerating     │
-│  ⚡  Onboarding Time: < 5min          │
-│  🔥  Dogfooding: 15K+ req/day         │
-└───────────────────────────────────────┘
+┌──────────────────────────────────────────┐
+│  🚀  Status: LIVE on watchllm.dev       │
+│  ⚡  Proxy: proxy.watchllm.dev          │
+│  🏗️   Stack: TS + Next + CF Workers     │
+│  💰  Payments: Whop integration         │
+│  🎯  Focus: $0→$1K MRR in 30 days       │
+└──────────────────────────────────────────┘
 ```
 
-Follow the journey: [@kaadz_zz](https://twitter.com/kaadz_zz)
+**Following the indiehacker playbook:** Ship fast • Charge early • Iterate with users
+
+[@kaadz_zz](https://twitter.com/kaadz_zz)
 
 </div>
 
@@ -189,16 +219,14 @@ Follow the journey: [@kaadz_zz](https://twitter.com/kaadz_zz)
 
 <div align="center">
 
-### ⭐ Star to follow • 🔔 Watch for updates • 🍴 Fork to build
+### 🌟 Star if you're cutting AI costs • 👀 Watch for updates
 
-```
-Because every AI system deserves world-class observability
-```
+**[Try it Live](https://watchllm.dev)** • **[Read Docs](https://watchllm.dev/docs)** • **[Join Discord](https://discord.gg/watchllm)**
 
-![Views](https://komarev.com/ghpvc/?username=yourusername&color=blueviolet&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=kaadipranav&color=00ff88&style=flat-square&label=Profile+Views)
 
 ---
 
-<sub>Built with ❤️ for AI builders | MIT Licensed | © 2024 WatchLLM</sub>
+*Semantic caching that actually works • Built by [@kaadz_zz](https://twitter.com/kaadz_zz) • Open for feedback*
 
 </div>
