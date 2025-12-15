@@ -26,7 +26,7 @@
 
 ```mermaid
 graph LR
-    A[Your App 💻] --> B{WatchLLM 🔥}
+    A[Your App 💻] --> B{WatchLLM}
     B -->|Cache HIT ✅| C[Return $0.00]
     B -->|Cache MISS ❌| D[OpenAI/Anthropic/Groq]
     D --> E[Cache Response]
@@ -38,8 +38,8 @@ graph LR
 
 <div align="center">
 
-**Before:** `baseURL: "https://api.openai.com/v1"` 💸 **$600/mo**  
-**After:** `baseURL: "https://proxy.watchllm.dev/v1"` 💰 **$180/mo**
+**Before:** `baseURL: "https://api.openai.com/v1"` **$600/mo**  
+**After:** `baseURL: "https://proxy.watchllm.dev/v1"` **$180/mo**
 
 ### **→ $420 saved/month** • **70% cost reduction** • **Zero code changes**
 
@@ -58,7 +58,7 @@ graph LR
 const OpenAI = require('openai');
 
 const client = new OpenAI({
-  apiKey: 'lgw_proj_xxxxx', // 👈 Your WatchLLM key
+  apiKey: 'lgw_proj_xxxxx', // Your WatchLLM key
   baseURL: 'https://proxy.watchllm.dev/v1'
 });
 
@@ -79,7 +79,7 @@ console.log(response.headers['x-cache']); // HIT or MISS
 from openai import OpenAI
 
 client = OpenAI(
-  api_key='lgw_proj_xxxxx',  # 👈 Your WatchLLM key
+  api_key='lgw_proj_xxxxx',  # Your WatchLLM key
   base_url='https://proxy.watchllm.dev/v1'
 )
 
@@ -165,8 +165,6 @@ flowchart TB
 
 ## 📊 Shipped Features
 
-<div align="center">
-
 | 🎯 Core | 💰 Business | 🛡️ DX | 🚀 Scale |
 |:---:|:---:|:---:|:---:|
 | ✅ Semantic caching | ✅ Whop payments | ✅ 2-min setup | ✅ Edge deployment |
@@ -174,13 +172,9 @@ flowchart TB
 | ✅ Rate limiting | ✅ Cost analytics | ✅ Real-time logs | ✅ Auto-scaling |
 | ✅ API key mgmt | ✅ Billing alerts | ✅ Error tracking | ✅ 99.9% uptime |
 
-</div>
-
 ---
 
 ## 💎 Pricing
-
-<div align="center">
 
 | 🆓 Free | 🏃 Starter | ⚡ Pro |
 |:---:|:---:|:---:|
@@ -190,9 +184,6 @@ flowchart TB
 | Community | Email support | Priority support |
 
 **[Start Free →](https://watchllm.dev/signup)**
-
-</div>
-
 ---
 
 ## 📈 Building in Public
