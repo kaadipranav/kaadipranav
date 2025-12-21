@@ -163,29 +163,6 @@ flowchart TB
 
 ---
 
-## 📊 Shipped Features
-
-| 🎯 Core | 💰 Business | 🛡️ DX | 🚀 Scale |
-|:---:|:---:|:---:|:---:|
-| ✅ Semantic caching | ✅ Whop payments | ✅ 2-min setup | ✅ Edge deployment |
-| ✅ Multi-provider | ✅ Usage tracking | ✅ OpenAI compatible | ✅ Global CDN |
-| ✅ Rate limiting | ✅ Cost analytics | ✅ Real-time logs | ✅ Auto-scaling |
-| ✅ API key mgmt | ✅ Billing alerts | ✅ Error tracking | ✅ 99.9% uptime |
-
----
-
-## 💎 Pricing
-
-| 🆓 Free | 🏃 Starter | ⚡ Pro |
-|:---:|:---:|:---:|
-| **$0/mo** | **$29/mo** | **$49/mo** |
-| 50K requests | 250K requests | 1M requests |
-| 3 projects | 10 projects | Unlimited |
-| Community | Email support | Priority support |
-
-**[Start Free →](https://watchllm.dev/signup)**
----
-
 ## 📈 Building in Public
 
 <div align="center">
