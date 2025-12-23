@@ -22,7 +22,7 @@
 
 ---
 
-## 🎯 One Change. Massive Savings.
+## ‣ One Change. Massive Savings.
 
 ```mermaid
 graph LR
@@ -47,7 +47,7 @@ graph LR
 
 ---
 
-## ⚡ Live in 60 Seconds
+## 🗲 Live in 60 Seconds
 
 <table>
 <tr>
@@ -98,7 +98,7 @@ print(response.headers['x-cache'])  # HIT or MISS
 
 ---
 
-## 🔥 Tech Stack
+## ‣ Tech Stack
 
 <div align="center">
 
@@ -118,7 +118,7 @@ print(response.headers['x-cache'])  # HIT or MISS
 
 ---
 
-## 🎨 Architecture
+## ‣ Architecture
 
 ```mermaid
 flowchart TB
@@ -163,21 +163,21 @@ flowchart TB
 
 ---
 
-## 📈 Building in Public
+## ‣ Building in Public
 
 <div align="center">
 
 ```ascii
 ┌──────────────────────────────────────────┐
-│  🚀  Status: LIVE on watchllm.dev       │
-│  ⚡  Proxy: proxy.watchllm.dev          │
-│  🏗️   Stack: TS + Next + CF Workers     │
-│  💰  Payments: Whop integration         │
-│  🎯  Focus: $0→$1K MRR in 30 days       │
+│  ■  Status: LIVE on watchllm.dev        │
+│  ■  Proxy: proxy.watchllm.dev           │
+│  ■   Stack: TS + Next + CF Workers      │
+│  ■  Payments: Whop integration          │
+│  ■  Focus: $0→$1K MRR in 30 days        │
 └──────────────────────────────────────────┘
 ```
 
-**Following the indiehacker playbook:** Ship fast • Charge early • Iterate with users
+** 🞋 Following the indiehacker playbook:** Ship fast • Charge early • Iterate with users
 
 [@kaadz_zz](https://twitter.com/kaadz_zz)
 
@@ -187,7 +187,7 @@ flowchart TB
 
 <div align="center">
 
-### 🌟 Star if you're cutting AI costs • 👀 Watch for updates
+### ✦ Star if you're cutting AI costs • 👀 Watch for updates
 
 **[Try it Live](https://watchllm.dev)** • **[Read Docs](https://watchllm.dev/docs)** • **[Join Discord](https://discord.gg/watchllm)**
 
