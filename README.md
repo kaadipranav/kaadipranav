@@ -31,7 +31,7 @@ graph LR
     B -->|Cache MISS| D[OpenAI/Anthropic/Groq]
     D --> E[Cache Response]
     E --> C
-    style B fill:#00ff88,stroke:#00cc66,color:#000
+    style B fill:#00a2ff,stroke:#00cc66,color:#000
     style C fill:#ffeb3b,stroke:#ffc107,color:#000
     style D fill:#ff6b6b,stroke:#cc5555,color:#fff
 ```
@@ -179,7 +179,7 @@ flowchart TB
 
 **Following the indiehacker playbook:** Ship fast • Charge early • Iterate with users
 
-[@kaadz_zz](https://twitter.com/kaadz_zz)
+[@kaadz_zz](https://twitter.com/kaad_zz)
 
 </div>
 
