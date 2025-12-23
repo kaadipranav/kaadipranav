@@ -11,9 +11,9 @@
 
 ### *Cut AI costs by 70% with semantic caching • Drop-in OpenAI replacement*
 
-[![LIVE](https://img.shields.io/badge/🚀_LIVE-watchllm.dev-00ff88?style=for-the-badge)](https://watchllm.dev)
-[![Deployed](https://img.shields.io/badge/⚡_CLOUDFLARE-WORKERS_@_EDGE-FF6B35?style=for-the-badge)](https://proxy.watchllm.dev)
-[![Ship](https://img.shields.io/badge/💪_SOLO-SHIPPING_FAST-ff0066?style=for-the-badge)](https://twitter.com/kaadz_zz)
+[![LIVE](https://img.shields.io/badge/LIVE-watchllm.dev-00ff88?style=for-the-badge)](https://watchllm.dev)
+[![Deployed](https://img.shields.io/badge/CLOUDFLARE-WORKERS_@_EDGE-FF6B35?style=for-the-badge)](https://proxy.watchllm.dev)
+[![Ship](https://img.shields.io/badge/SOLO-SHIPPING_FAST-ff0066?style=for-the-badge)](https://twitter.com/kaadz_zz)
 
 [![Twitter](https://img.shields.io/twitter/follow/kaadz_zz?style=for-the-badge&logo=x&color=000000&labelColor=1DA1F2)](https://twitter.com/kaadz_zz)
 [![GitHub Stars](https://img.shields.io/github/stars/kaadipranav/WATCHLLM?style=for-the-badge&logo=github&color=black)](https://github.com/kaadipranav/WATCHLLM)
@@ -26,9 +26,9 @@
 
 ```mermaid
 graph LR
-    A[Your App 💻] --> B{WatchLLM}
-    B -->|Cache HIT ✅| C[Return $0.00]
-    B -->|Cache MISS ❌| D[OpenAI/Anthropic/Groq]
+    A[Your App] --> B{WatchLLM}
+    B -->|Cache HIT| C[Return $0.00]
+    B -->|Cache MISS| D[OpenAI/Anthropic/Groq]
     D --> E[Cache Response]
     E --> C
     style B fill:#00ff88,stroke:#00cc66,color:#000
