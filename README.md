@@ -177,7 +177,7 @@ flowchart TB
 └──────────────────────────────────────────┘
 ```
 
-** 🞋 Following the indiehacker playbook:** Ship fast • Charge early • Iterate with users
+**Following the indiehacker playbook:** Ship fast • Charge early • Iterate with users
 
 [@kaadz_zz](https://twitter.com/kaadz_zz)
 
@@ -195,6 +195,6 @@ flowchart TB
 
 ---
 
-*Semantic caching that actually works • Built by [@kaadz_zz](https://twitter.com/kaadz_zz) • Open for feedback*
+*Semantic caching that actually works • Built by [@kaadz_zz](https://twitter.com/kaad_zz) • Open for feedback*
 
 </div>
