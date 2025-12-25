@@ -11,11 +11,11 @@
 
 ### *Cut AI costs by 70% with semantic caching • Drop-in OpenAI replacement*
 
-[![LIVE](https://img.shields.io/badge/LIVE-watchllm.dev-8B949E?style=for-the-badge)](https://watchllm.dev)
-[![Deployed](https://img.shields.io/badge/CLOUDFLARE-WORKERS_@_EDGE-FF6B35?style=for-the-badge)](https://proxy.watchllm.dev)
-[![Ship](https://img.shields.io/badge/SOLO-SHIPPING_FAST-ff0066?style=for-the-badge)](https://twitter.com/kaadz_zz)
+[![LIVE](https://img.shields.io/badge/LIVE-watchllm.dev-333333?style=for-the-badge&labelColor=000000)](https://watchllm.dev)
+[![Deployed](https://img.shields.io/badge/CLOUDFLARE-WORKERS_@_EDGE-000000?style=for-the-badge&logo=cloudflare&logoColor=white)](https://proxy.watchllm.dev)
+[![Ship](https://img.shields.io/badge/SOLO-SHIPPING_FAST-000000?style=for-the-badge&logoColor=white)](https://twitter.com/kaadz_zz)
 
-[![Twitter](https://img.shields.io/twitter/follow/kaadz_zz?style=for-the-badge&logo=x&color=000000&labelColor=1DA1F2)](https://twitter.com/kaadz_zz)
+[![Twitter](https://img.shields.io/twitter/follow/kaadz_zz?style=for-the-badge&logo=x&color=000000&labelColor=18181b)](https://twitter.com/kaadz_zz)
 
 </div>
 
@@ -30,15 +30,16 @@ graph LR
     B -->|Cache MISS| D[OpenAI/Anthropic/Groq]
     D --> E[Cache Response]
     E --> C
-    style B fill:#3E424B,stroke:#FFF,color:#FFF
-    style C fill:#544C4A,stroke:#FFF,color:#FFF
-    style D fill:#363636,stroke:#FFF,color:#FFF
+    style A fill:#000,stroke:#FFF,color:#FFF
+    style B fill:#000,stroke:#FFF,stroke-width:2px,color:#FFF
+    style C fill:#333,stroke:#FFF,color:#FFF
+    style D fill:#111,stroke:#666,color:#BBB
+    style E fill:#111,stroke:#666,color:#BBB
 ```
 
 <div align="center">
 
-**Before:** `baseURL: "https://api.openai.com/v1"` **$600/mo**  
-**After:** `baseURL: "https://proxy.watchllm.dev/v1"` **$180/mo**
+**Before:** `baseURL: "https://api.openai.com/v1"` **$600/mo** **After:** `baseURL: "https://proxy.watchllm.dev/v1"` **$180/mo**
 
 ### **→ $420 saved/month** • **70% cost reduction** • **Zero code changes**
 
@@ -103,14 +104,14 @@ print(response.headers['x-cache'])  # HIT or MISS
 
 **Edge-first • Global • Blazing Fast**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Hono](https://img.shields.io/badge/Hono-E36002?style=for-the-badge&logo=hono&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-000000?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Hono](https://img.shields.io/badge/Hono-000000?style=for-the-badge&logo=hono&logoColor=white)
 
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Upstash](https://img.shields.io/badge/Upstash_Redis-00E9A3?style=for-the-badge&logo=redis&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=white)
+![Upstash](https://img.shields.io/badge/Upstash_Redis-000000?style=for-the-badge&logo=redis&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
@@ -155,9 +156,15 @@ flowchart TB
     E -->|9. Log + Cache| J & K
     E -->|10. Return| A
     
-    style B fill:#FF6B35,stroke:#FF5722,color:#fff
-    style C fill:#00ff88,stroke:#00cc66,color:#000
-    style J fill:#00E9A3,stroke:#00CC88,color:#000
+    %% Grayscale Styling
+    style B fill:#000000,stroke:#FFF,stroke-width:2px,color:#fff
+    style C fill:#333333,stroke:#FFF,color:#fff
+    style D fill:#1a1a1a,stroke:#666,color:#ccc
+    style E fill:#1a1a1a,stroke:#666,color:#ccc
+    style J fill:#222222,stroke:#FFF,stroke-dasharray: 5 5,color:#fff
+    style K fill:#222222,stroke:#FFF,stroke-dasharray: 5 5,color:#fff
+    
+    linkStyle default stroke:#666,stroke-width:1px
 ```
 
 ---
@@ -168,11 +175,11 @@ flowchart TB
 
 ```ascii
 ┌──────────────────────────────────────────┐
-│  ■  Status: LIVE on watchllm.dev        │
-│  ■  Proxy: proxy.watchllm.dev           │
-│  ■   Stack: TS + Next + CF Workers      │
-│  ■  Payments: Whop integration          │
-│  ■  Focus: $0→$1K MRR in 30 days        │
+│  ■  Status: LIVE on watchllm.dev         │
+│  ■  Proxy: proxy.watchllm.dev            │
+│  ■   Stack: TS + Next + CF Workers       │
+│  ■  Payments: Whop integration           │
+│  ■  Focus: $0→$1K MRR in 30 days         │
 └──────────────────────────────────────────┘
 ```
 
@@ -190,7 +197,7 @@ flowchart TB
 
 **[Try it Live](https://watchllm.dev)** • **[Read Docs](https://watchllm.dev/docs)** • **[Join Discord](https://discord.gg/watchllm)**
 
-![Profile Views](https://komarev.com/ghpvc/?username=kaadipranav&color=00ff88&style=flat-square&label=Profile+Views)
+![Profile Views](https://komarev.com/ghpvc/?username=kaadipranav&color=333333&style=flat-square&label=Profile+Views)
 
 ---
 
