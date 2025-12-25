@@ -11,12 +11,11 @@
 
 ### *Cut AI costs by 70% with semantic caching • Drop-in OpenAI replacement*
 
-[![LIVE](https://img.shields.io/badge/LIVE-watchllm.dev-00ff88?style=for-the-badge)](https://watchllm.dev)
+[![LIVE](https://img.shields.io/badge/LIVE-watchllm.dev-8B949E?style=for-the-badge)](https://watchllm.dev)
 [![Deployed](https://img.shields.io/badge/CLOUDFLARE-WORKERS_@_EDGE-FF6B35?style=for-the-badge)](https://proxy.watchllm.dev)
 [![Ship](https://img.shields.io/badge/SOLO-SHIPPING_FAST-ff0066?style=for-the-badge)](https://twitter.com/kaadz_zz)
 
 [![Twitter](https://img.shields.io/twitter/follow/kaadz_zz?style=for-the-badge&logo=x&color=000000&labelColor=1DA1F2)](https://twitter.com/kaadz_zz)
-[![GitHub Stars](https://img.shields.io/github/stars/kaadipranav/WATCHLLM?style=for-the-badge&logo=github&color=black)](https://github.com/kaadipranav/WATCHLLM)
 
 </div>
 
@@ -31,9 +30,9 @@ graph LR
     B -->|Cache MISS| D[OpenAI/Anthropic/Groq]
     D --> E[Cache Response]
     E --> C
-    style B fill:#00a2ff,stroke:#00cc66,color:#000
-    style C fill:#ffeb3b,stroke:#ffc107,color:#000
-    style D fill:#ff6b6b,stroke:#cc5555,color:#fff
+    style B fill:#42002e,stroke:#00cc66,color:#000
+    style C fill:#590054,stroke:#ffc107,color:#000
+    style D fill:#720137,stroke:#cc5555,color:#fff
 ```
 
 <div align="center">
