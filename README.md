@@ -30,9 +30,9 @@ graph LR
     B -->|Cache MISS| D[OpenAI/Anthropic/Groq]
     D --> E[Cache Response]
     E --> C
-    style B fill:#42002e,stroke:#00cc66,color:#FFF
-    style C fill:#590054,stroke:#ffc107,color:#FFF
-    style D fill:#720137,stroke:#cc5555,color:#FFF
+    style B fill:#3E424B,stroke:#000,color:#FFF
+    style C fill:#3E424B,stroke:#000,color:#FFF
+    style D fill:#3E424B,stroke:#000,color:#FFF
 ```
 
 <div align="center">
