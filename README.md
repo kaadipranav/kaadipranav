@@ -39,7 +39,7 @@ graph LR
 
 <div align="center">
 
-**Before:** `baseURL: "https://api.openai.com/v1"` **$600/mo** **After:** `baseURL: "https://proxy.watchllm.dev/v1"` **$180/mo**
+**Before:** `baseURL: "https://api.openai.com/v1"` **$600/mo** **After:** `baseURL: "https://proxy.watchllm.dev/v1"` **$240/mo**
 
 ### **→ $420 saved/month** • **70% cost reduction** • **Zero code changes**
 
@@ -201,6 +201,6 @@ flowchart TB
 
 ---
 
-*Semantic caching that actually works • Built by [@kaadz_zz](https://twitter.com/kaad_zz) • Open for feedback*
+*Semantic caching that actually works • Built by [@kaad_zz](https://twitter.com/kaad_zz) • Open for feedback*
 
 </div>
