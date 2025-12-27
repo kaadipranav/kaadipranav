@@ -175,11 +175,11 @@ flowchart TB
 
 ```ascii
 ┌──────────────────────────────────────────┐
-│  ■  Status: LIVE on watchllm.dev         │
-│  ■  Proxy: proxy.watchllm.dev            │
-│  ■   Stack: TS + Next + CF Workers       │
-│  ■  Payments: Whop integration           │
-│  ■  Focus: $0→$1K MRR in 30 days         │
+│  ⁕  Status: LIVE on watchllm.dev         │
+│  ⁕  Proxy: proxy.watchllm.dev            │
+│  ⁕  Stack: TS + Next + CF Workers        │
+│  ⁕  Payments: Whop integration           │
+│  ⁕  Focus: $0→$1K MRR in 30 days         │
 └──────────────────────────────────────────┘
 ```
 
