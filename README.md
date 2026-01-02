@@ -10,3 +10,5 @@
 ```
 
 </div>
+
+![Pacman](https://raw.githubusercontent.com/YOUR_USERNAME/output/pacman.svg)
