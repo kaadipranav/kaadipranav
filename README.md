@@ -11,4 +11,5 @@
 
 </div>
 
-![Pacman](https://raw.githubusercontent.com/kaadipranav/output/pacman.svg)
+![Pacman](https://raw.githubusercontent.com/kaadipranav/kaadipranav/output/pacman.svg)
+
