@@ -11,6 +11,5 @@
 [• VISIT WATCHLLM •](https://watchllm.dev)
 </div>
 
-[![WATCHLLM](https://ascii-galaxy.vercel.app/api?width=800&height=150&textColor=FFFFFF&fontSize=24&font=Block&text=WATCHLLM)](https://watchllm.dev/)
 
 
