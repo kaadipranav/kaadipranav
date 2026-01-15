@@ -11,17 +11,12 @@
 </div> 
 
 
+
 <h1>Hi 👋, I'm Kaadz</h1>
 <h3>A passionate frontend developer from India • Founder of WatchLLM</h3>
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=kaadipranav&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-</p>
-
-<p>
-  <a href="https://github.com/kaadipranav/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=kaadipranav&theme=dracula&no-frame=true&margin-w=15" alt="trophies" />
-  </a>
 </p>
 
 <p>
@@ -41,6 +36,21 @@
   <a href="https://instagram.com/k.aadz" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="k.aadz" height="30" width="40" />
   </a>
+</p>
+
+### 🚀 Featured Project: WatchLLM
+Making LLMs observable, debuggable, and production-ready.
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/kaadipranav/WATCHLLM?style=for-the-badge&logo=github&color=9f7aea" alt="Stars" />
+  <img src="https://img.shields.io/github/forks/kaadipranav/WATCHLLM?style=for-the-badge&logo=github&color=9f7aea" alt="Forks" />
+  <img src="https://img.shields.io/github/issues/kaadipranav/WATCHLLM?style=for-the-badge&color=9f7aea" alt="Issues" />
+  <img src="https://img.shields.io/github/license/kaadipranav/WATCHLLM?style=for-the-badge&color=9f7aea" alt="License" />
+</p>
+
+<p align="center">
+  <a href="https://www.watchllm.dev">🌐 Live Demo</a> • 
+  <a href="https://github.com/kaadipranav/WATCHLLM">📂 Source Code</a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
@@ -80,17 +90,5 @@
   </a>
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kaadipranav&show_icons=true&locale=en&layout=compact&theme=dracula&hide_border=true" alt="Top languages" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kaadipranav&show_icons=true&locale=en&theme=dracula&hide_border=true" alt="GitHub stats" /></p>
-
-<p><img align="center" src="https://streak-stats.demolab.com?user=kaadipranav&theme=dracula&hide_border=true" alt="Streak stats" /></p>
-
 </div>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=kaadipranav&show_icons=true&locale=en&layout=compact" alt="kaadipranav" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kaadipranav&show_icons=true&locale=en" alt="kaadipranav" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kaadipranav&" alt="kaadipranav" /></p>
-
 
