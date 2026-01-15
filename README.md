@@ -11,11 +11,11 @@
 </div> 
 
 <h1 align="center">Hi 👋, I'm Kaadz</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">---</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=kaadipranav&label=Profile%20views&color=0e75b6&style=flat" alt="kaadipranav" /> </p>
+<p align="left"> <img src="https://komarev.com/kaadipranav/?username=kaadipranav&label=Profile%20views&color=0e75b6&style=flat" alt="kaadipranav" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kaadipranav" alt="kaadipranav" /></a> </p>
+<p align="left"> <a href="https://github.com/kaadipranav/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=kaadipranav" alt="kaadipranav" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/kaad_zz" target="blank"><img src="https://img.shields.io/twitter/follow/kaad_zz?logo=twitter&style=for-the-badge" alt="kaad_zz" /></a> </p>
 
