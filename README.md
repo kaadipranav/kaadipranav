@@ -24,7 +24,7 @@
 
 ---
 
-## 🎯 Currently Building
+## Currently Building
 
 <table>
 <tr>
@@ -73,7 +73,7 @@ graph TD
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 ```typescript
 const kaadz = {
@@ -90,7 +90,7 @@ const kaadz = {
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -102,7 +102,7 @@ const kaadz = {
 
 ---
 
-## 🐍 Contribution Graph
+## Contribution Graph
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kaadipranav/kaadipranav/output/github-contribution-grid-snake-dark.svg">
@@ -112,7 +112,7 @@ const kaadz = {
 
 ---
 
-## 🚀 What I'm Up To
+## What I'm Up To
 
 ```bash
 $ cat current_focus.txt
@@ -125,7 +125,7 @@ $ cat current_focus.txt
 
 ---
 
-## 📫 Let's Connect
+## Let's Connect
 
 <div align="center">
 
