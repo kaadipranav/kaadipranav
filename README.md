@@ -142,8 +142,4 @@ $ cat current_focus.txt
 
 **"Building products that make AI affordable for everyone"**
 
-*Solo indie maker • TypeScript enthusiast • Building @watchllm*
 
-![Profile Views](https://komarev.com/ghpvc/?username=kaadipranav&color=00ff88&style=flat-square&label=Profile+Views)
-
-</div>
