@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/bruh.png"
+  <img src="https://raw.githubusercontent.com/WatchLLM/.github/refs/heads/main/profile/bruh2.png"
        alt="WatchLLM Banner"
        width="900"/>
   <br><br>
