@@ -42,16 +42,6 @@
 
 </div>
 
-<br>
-
----
-
-<br>
-
-<div align="center">
-  <sub>the only jobs i'll have are cron jobs</sub>
-</div>
-
 <!--
     WatchLLM is an open-core deterministic governance platform
     for autonomous coding agents. We parse code with Tree-sitter,
