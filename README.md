@@ -6,10 +6,8 @@
 </div>
 
 <div align="center">
-
 ### Founder, WatchLLM
 ###### *Agents are probabilistic. Infrastructure cannot be.*
-
 </div>
 
 <br>
