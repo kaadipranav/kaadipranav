@@ -8,7 +8,7 @@
 <div align="center">
 
 ### Founder, WatchLLM
-#### *Agents are probabilistic. Infrastructure cannot be.*
+###### *Agents are probabilistic. Infrastructure cannot be.*
 
 </div>
 
@@ -25,7 +25,7 @@
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://twitter.com/kaad_zz">@kaad_zz</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="mailto:kaadi@watchllm.dev">kaadi@watchllm.dev</a>
+  <a href="mailto:kaadz@watchllm.dev">kaadi@watchllm.dev</a>
 </div>
 
 <br>
