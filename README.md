@@ -29,7 +29,7 @@
 | | |
 |:---:|:---:|
 | **Open Source** | **Closed Source** |
-| [watchllm-oss](https://github.com/WatchLLM/watchllm-oss) `kernel` `schemas` `vscode` | Runtime `Rust` `WASM` |
+| [watchllm-oss](https://github.com/WatchLLM/watchllm-oss) <br> `kernel` `schemas` `vscode` | Runtime `Rust` `WASM` |
 | [hermes-agent](https://github.com/kaadipranav/hermes-agent) | klyd `architectural memory` |
 | [BOILERPLATE](https://github.com/kaadipranav/BOILERPLATE) | replay `forensics` |
 | [Kaadz](https://github.com/kaadipranav/Kaadz) | reliability `adversarial` |
