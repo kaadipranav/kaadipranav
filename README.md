@@ -27,7 +27,7 @@
 <div align="center">
 
 | | |
-|:---:|:---:|
+|---|---|
 | **Open Source** | **Closed Source** |
 | [watchllm-oss](https://github.com/WatchLLM/watchllm-oss) <br> `kernel` `schemas` `vscode` | Runtime `Rust` `WASM` |
 | [hermes-agent](https://github.com/kaadipranav/hermes-agent) | klyd `architectural memory` |
