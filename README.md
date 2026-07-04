@@ -3,14 +3,10 @@
 
 <div align="center">
   <img src="assets/ok.png"/>
-</div>
 
-<div align="center">
 ### Founder, WatchLLM
 ###### *Agents are probabilistic. Infrastructure cannot be.*
 </div>
-
-<br>
 
 ---
 
