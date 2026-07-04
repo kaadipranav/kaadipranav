@@ -2,11 +2,8 @@
 <br>
 
 <div align="center">
-  <img src="assets/ok.png" width="640" />
+  <img src="assets/ok.png"/>
 </div>
-
-<br>
-<br>
 
 <div align="center">
 
