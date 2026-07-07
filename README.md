@@ -3,6 +3,6 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/kaadipranav/kaadipranav/refs/heads/main/assets/bruh.png"/>
+  <img src="https://raw.githubusercontent.com/kaadipranav/kaadipranav/refs/heads/main/assets/readmebg.png"/>
 </div>
 
