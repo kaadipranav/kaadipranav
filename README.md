@@ -5,8 +5,7 @@
 <br/>
 
 # Kaadipranav
-
-### I build infrastructure for coding agents, cybersecurity, and technical education.
+##### I build infrastructure for coding agents, cybersecurity, and technical education.
 
 My work focuses on systems that make complex software workflows more reliable, inspectable, and usable by other people.
 
@@ -14,7 +13,7 @@ My work focuses on systems that make complex software workflows more reliable, i
 
 ## Selected work
 
-### [WatchLLM](https://github.com/WatchLLM/watchllm-oss)
+### [W   A   T   C   H   L   L   M](https://github.com/WatchLLM/watchllm-oss)
 > **Deterministic runtime governance for autonomous coding agents.**
 
 An open-core platform that intercepts file operations from coding agents (like Claude Code and Aider), parses them with Tree-sitter AST, and blocks unsafe operations (secrets leaks, boundary violations, unauthenticated mutations) before code reaches disk.
@@ -25,7 +24,7 @@ An open-core platform that intercepts file operations from coding agents (like C
 
 ---
 
-### [Klyd](https://github.com/klyd-studio/klyd-harness)
+### [K   L   Y   D](https://github.com/klyd-studio/klyd-harness)
 > **Decision memory for coding agents.**
 
 A local memory harness that uses Git hooks to capture architectural decisions from commit diffs via LLM call, stores them in SQLite with vector embeddings, and re-injects relevant constraints into future agent sessions to prevent architectural drift.
@@ -36,7 +35,7 @@ A local memory harness that uses Git hooks to capture architectural decisions fr
 
 ---
 
-### [Codify](https://github.com/Codify-PSBB/CODIFY-WEBAPP-CORE)
+### [C   O   D   I   F   Y](https://github.com/Codify-PSBB/CODIFY-WEBAPP-CORE)
 > **A student-built coding platform for a student-run coding club.**
 
 A purpose-built competition and assignment platform running in school computer labs. Features client-side Python execution via Pyodide WASM, manual admin review workflows, and serverless SQLite atomic scoring with zero RCE attack surface.
