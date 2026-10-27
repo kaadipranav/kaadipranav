@@ -5,12 +5,9 @@
 <br/>
 
 ### `kaadipranav` // systems, agent infrastructure, sandboxing
-
 I build deterministic guardrails, context engines, and zero-trust execution sandboxes for autonomous software workflows.
 
 ---
-
-### Active Systems
 
 <table>
   <thead>
