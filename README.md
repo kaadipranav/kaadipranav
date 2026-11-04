@@ -57,7 +57,7 @@ I build deterministic guardrails, context engines, and zero-trust execution sand
     </tr>
     <tr>
       <td>
-        <b><a href="https://github.com/kaadipranav/kaadzos">KaadzOS</a></b><br/>
+        <b><a href="https://github.com/kaadzos/kaadzos">KaadzOS</a></b><br/>
         <sub><code>Distro</code> · Minimalist Sway/Wayland</sub>
       </td>
       <td>
