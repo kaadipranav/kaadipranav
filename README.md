@@ -1,7 +1,7 @@
 ---
 
 <div align="center">
-  <img src="assets/123123123.png" alt="Kaadz — Systems // Design // Code" width="100%" />
+  <img src="assets/bannerimage.png" alt="Kaadz — Systems // Design // Code" width="100%" />
 </div>
 
 <br/>
